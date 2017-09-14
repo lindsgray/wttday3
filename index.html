@@ -1,47 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Week 2 Practice</title>
-
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- custom styles -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, , initial-scale=1.0">
+    <title>Linds Gray</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/styles.css">
-  </head>
-  <body>
-    <!-- start of nav -->
-    <div class="container-fluid">
-      <ul class="nav nav-pills">
-        <li role="presentation" class="active"><a href="#">Home</a></li>
-        <li role="presentation"><a href="#">Profile</a></li>
-        <li role="presentation"><a href="#">Messages</a></li>
-      </ul> <!-- nav pills -->
-    </div> <!-- container-fluid-->
-    <!-- end of nav -->
-    <!-- start of jumbotron -->
-    <div class="row">
-      <div class="jumbotron">
-        <div class="container">
-          <h1>Hello, world!</h1>
-            <p>...</p>
-            <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
-        </div> <!-- container -->
-      </div> <!-- jumbotron -->
-    </div> <!-- row -->
-    <!-- end of jumbotron -->
-    <!-- start of rainbow row -->
-  <div class="row">
-    <div class="col-xs- 6 col-md-4 red"></div>
-    <div class="col-xs- 6 col-md-4 green"></div>
-    <div class="col-xs- 12 col-md-4 blue"></div>
-  </div>
-  <!-- end of rainbow row -->
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
-</html>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC|Permanent+Marker">
+</head>
+<body>
+<!-- nav bar begins -->
+<nav role="navigation">
+  <div id="menuToggle">
+    <!--click reciever-->
+    <input type="checkbox" />
+
+    <!-- Some spans to act as a hamburger. -->
+    <span></span>
+    <span></span>
+    <span></span>
+    <ul id="menu"> <!--inside nav -->
+      <a href="#home"><li>Home</li></a>
+      <a href="#portfolio"><li>Portfolio</li></a>
+      <a href="#about-me"><li>About Me</li></a>
+      <a href="#contact"><li>Contact</li></a>
+    </ul> <!-- end of insied nav -->
+  </div> <!-- end of menuToggle -->
+</nav> <!-- end of nav tag -->
+<!-- end of nav -->
+
+<!-- start of header -->
+<div class="container-fluid" id="home">
+  <div class="hero-image">
+    <div class="hero-text">
+      <h1 class="name">LINDS GRAY</h1>
+      <h3 class="title">PHOTOGRAPHER &#x25CF FRONT END DEVELOPER &#x25CF DESIGNER</h3>
+    </div> <!-- end of hero text-->
+  </div> <!--end of hero image -->
+</div> <!-- end of container fluid>
+<!-- End of header -->
+
+<!-- Start of social media bar -->
+<div class="row" id="socialmediabar">
+<span class="col-xs-offset-3 col-xs-1 col-sm-offset-0 facebook">
+  <a target= "_blank" href="https://www.facebook.com/lindsayalexisgray" class="icon"><img src="img/facebook.jpg" alt="facebook" height="25" width="25"></a>
+</span> <!-- end fb -->
+<span class="col-xs-1 instagram">
+  <a target= "_blank" href="https://www.instagram.com/sleeplessincalifornia" class="icon"><img src="img/IG.jpg" alt="instagram" height="25" width="25"> </a>
+</span> <!-- end IG -->
+<span class="col-xs-1 twitter">
+  <a target= "_blank" href="https://www.twitter.com/simplelinds" class="icon"><img src="img/twitter.jpg" alt="twitter" height="25" width="25"> </a>
+</span> <!-- end twitter -->
+<span class="col-xs-1 email">
+  <a target= "_blank" href="mailto:lindsaygray11@gmail.com" class="icon"><img src="img/email.png" alt="email" height="25" width="25"> </a>
+</span> <!-- end email -->
+</div> <!-- end of social media bar -->
+<!-- end end of social media bar -->
