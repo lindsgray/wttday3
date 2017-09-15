@@ -146,3 +146,24 @@ a:hover {
 }
 /* end of social media icons*/
 /*end of social media bar styles*/
+
+/* start of homepage content styles */
+
+.hp-img {
+  width:100%;
+  margin-bottom: 50px;
+}
+
+/*end of homepage content styles */
+
+/*start of footer styles*/
+.footer {
+  width: 100%;
+}
+
+.footer-content {
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  background-color: #42f498;
+}
+/*end of footer styles*/
