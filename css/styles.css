@@ -153,8 +153,48 @@ a:hover {
   width:100%;
   margin-bottom: 50px;
 }
-
 /*end of homepage content styles */
+
+/* about me styles */
+.am-title {
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  color: #42f498;
+  text-shadow: 2px 2px black;
+  font-size: 75px;
+}
+
+.ramona {
+  height: 200px;
+}
+
+.about-text {
+  font-family:'Amatic SC', cursive;
+  color: gold;
+  text-shadow: 1px 1px black;
+  font-size: 40px;
+}
+
+ .about-margin {
+   margin-bottom: 50px;
+ }
+
+/* end of about me styles */
+
+/*start of contact styles*/
+.contact-title {
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  color: #42f498;
+  text-shadow: 2px 2px black;
+  font-size: 75px;
+}
+
+.form {
+  font-family:'Amatic SC', cursive;
+  margin-bottom: 50px;
+}
+/*end of contact styles*/
 
 /*start of footer styles*/
 .footer {
@@ -165,5 +205,30 @@ a:hover {
   text-align: center;
   font-family: 'Amatic SC', cursive;
   background-color: #42f498;
+  color: gold;
+  text-shadow: 1px 1px black;
+  font-size: 35px;
 }
 /*end of footer styles*/
+
+/*media queries*/
+@media only screen and (min-width:0px) and (max-width: 768px){
+  .hero-image {
+    margin-top: 0px;
+    width: 100%;
+  }
+
+  .name {
+    margin-top: 0px;
+    font-size: 95px;
+  }
+
+  .about-text {
+    margin-top: 0px;
+    width: 100%;
+  }
+
+  footer {
+    width: 100%;
+  }
+}
